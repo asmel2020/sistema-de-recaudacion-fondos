@@ -14,17 +14,17 @@ import {
 import {VMContext, u128 } from "near-sdk-as";
 
 describe("index", () => {
+
   beforeEach(() => {
     init();
   });
-
 
   it('initialize contract', () => {
     init();
   });
 
   it('function invest', () => {
-    VMContext.setAttached_deposit(u128.from("200000000000000000000000"));
+    VMContext.setAttached_deposit(u128.from("1"));
     expect(invest()).toBe(true);
   });
 
@@ -43,10 +43,11 @@ describe("index", () => {
   });
 
   it("invest and vote", () => {
-    VMContext.setAttached_deposit(u128.from("200000000000000000000000"));
+    VMContext.setAttached_deposit(u128.from("5"));
     expect(invest()).toBe(true);
     expect(vote(1)).toBe(true);
-    expect(getvoteProposal(1)).toBe(u128.from("200000000000000000000000"));
+    expect(getvoteProposal(1)).toBe(u128.from("5"));
     expect(getVotesAllowed()).toBe(u128.from("0"));
   });
+  
 });

@@ -4,11 +4,11 @@ const votesAllowed = new PersistentMap<string, u128>("a:");
 const registeredUser = new PersistentMap<string, bool>("b:");
 const proposals = new PersistentMap<u8, string>("c:");
 const voteProposal = new PersistentMap<u8, u128>("d:");
-const MinDeposit = u128.from("100000000000000000000000");
-const MaxDeposit = u128.from("1000000000000000000000000");
+const MinDeposit = u128.from("1000000000000000000000000");
+const MaxDeposit = u128.from("10000000000000000000000000");
 
 //@dev constructor del contrato
-export function init(): void {
+export function init(): bool {
   assert(storage.get<string>("init") == null, "contract already initialized");
 
   const initialOwner = context.sender;
@@ -21,6 +21,7 @@ export function init(): void {
   onPause();
   logging.log("initialOwner: " + initialOwner);
   storage.set("init", "done");
+  return true;
 }
 
 
@@ -41,7 +42,6 @@ export function invest(): bool {
 
   votesAllowed.set(context.sender, Deposit);
   registeredUser.set(context.sender, true);
-
   return true;
 }
 
