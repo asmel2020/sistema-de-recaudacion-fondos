@@ -1,0 +1,152 @@
+.jumbotron{
+    background-image: url(../w2.jpg);
+    color: aliceblue;
+    text-align: center;
+}
+
+.nombrePagina{
+    margin-left:15px;
+    margin-right: 15px;
+    
+}
+
+.cards1{
+    padding-top: 40px;
+    padding-bottom:   50px;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+.container-fluid {
+    background-color: rgb(0, 0, 0);
+}
+.jumbotron{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.space{
+    padding-top: 5%;
+    
+}
+.display-4{
+    color: white;
+}
+
+body{
+
+
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+
+
+    
+
+
+}   
+
+.fondo{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: aliceblue;
+
+    margin-bottom: 75px;
+       
+}
+
+.titulopagina{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing:4px;
+}
+
+.parrafopagina{
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing:2px;
+}
+
+.ec-stars-wrapper {
+	font-size: 0;
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(255, 208, 0);
+}
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+
+.boton{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.near{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nft{
+    margin-right: 5px;
+}
+
+.footer{
+    background-image: url(../w2.jpg);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+   
+}
+
+
+.fp{
+    color: white;
+    margin-left:70px;
+}
+
+
+
+.logof{
+justify-content: center;
+font-weight: bold;
+}
+
+.list-icono2{
+    padding-left: 0;
+   
+    
+}
+
+.icono{
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(59, 224, 97);
+}
+.icono:hover{
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+}
+
