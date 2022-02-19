@@ -8,11 +8,11 @@ smart contract creado en AssemblyScript para el bootcamp del protocolo blockchai
 
 [TOC]
 
-# Descripción
+#Descripción
 
 Smart contract fue creado con la finalidad de realizar una recaudacion de fondos colectivos para posteriormente ser realizado una votacion para decidir donde seran gastados o invertidos los fondos recaudados
 
-# Instalacion :astronaut:
+#Instalacion :astronaut:
 
 instalar near-cli 
 
@@ -31,7 +31,7 @@ instalar yarn (necesario)
 
 `npm install --global yarn`
 
-# Desplegar el contrato en la red de pruebas de Near
+#Desplegar el contrato en la red de pruebas de Near
 
 
 Compilar el contrato
