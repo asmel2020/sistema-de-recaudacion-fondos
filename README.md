@@ -157,4 +157,4 @@ Correo: alejandro.info33@gmail.com
 
 Gracias a  [blockdemy](https://www.blockdemy.com/) por permitirnos particpar en este increible bootcamp del protocolo de Near.
 
-A nuestro instructor [Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/) por sus enseñanzas y apoyo en todo el trayecto bootcamp, espero poder seguir compartiendo contigo en futuros eventos y proyectos que el protocolo de Near lleve a las comunidades
+A nuestro instructor [Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/) por sus enseñanzas y apoyo en todo el trayecto del bootcamp, espero poder seguir compartiendo contigo en futuros eventos y proyectos que el protocolo de Near lleve a las comunidades
