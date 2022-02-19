@@ -1,8 +1,7 @@
 # sistema de recaudacion fondos (BCN)
 
 smart contract creado en AssemblyScript para el bootcamp del protocolo Near ofrecido por [blockdemy](https://www.blockdemy.com/) e impartido por el
-instructor  
-[Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/)
+instructor [Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/)
 
 **Tabla de Contenido**
 
