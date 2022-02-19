@@ -19,12 +19,8 @@ describe("index", () => {
     init();
   });
 
-  it('initialize contract', () => {
-    init();
-  });
-
   it('function invest', () => {
-    VMContext.setAttached_deposit(u128.from("1"));
+    VMContext.setAttached_deposit(u128.from("2000000000000000000000000"));
     expect(invest()).toBe(true);
   });
 
@@ -43,11 +39,11 @@ describe("index", () => {
   });
 
   it("invest and vote", () => {
-    VMContext.setAttached_deposit(u128.from("5"));
+    VMContext.setAttached_deposit(u128.from("2000000000000000000000000"));
     expect(invest()).toBe(true);
     expect(vote(1)).toBe(true);
-    expect(getvoteProposal(1)).toBe(u128.from("5"));
+    expect(getvoteProposal(1)).toBe(u128.from("2000000000000000000000000"));
     expect(getVotesAllowed()).toBe(u128.from("0"));
   });
-  
+
 });

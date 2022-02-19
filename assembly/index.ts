@@ -3,8 +3,11 @@ import { storage, logging, PersistentMap, context, u128 } from "near-sdk-as";
 const votesAllowed = new PersistentMap<string, u128>("a:");
 const registeredUser = new PersistentMap<string, bool>("b:");
 const proposals = new PersistentMap<u8, string>("c:");
+
 const voteProposal = new PersistentMap<u8, u128>("d:");
+
 const MinDeposit = u128.from("1000000000000000000000000");
+
 const MaxDeposit = u128.from("10000000000000000000000000");
 
 //@dev constructor del contrato
@@ -24,9 +27,9 @@ export function init(): bool {
   return true;
 }
 
-
 //@dev funciona para compra de votos
 export function invest(): bool {
+
   assert(storage.getSome<bool>("pause") == true, "investment time is over");
 
   const user = registeredUser.contains(context.sender)
@@ -43,6 +46,7 @@ export function invest(): bool {
   votesAllowed.set(context.sender, Deposit);
   registeredUser.set(context.sender, true);
   return true;
+  
 }
 
 //@dev funciona para votar por una propuestas
