@@ -1,18 +1,26 @@
 # sistema de recaudacion fondos (BCN)
 
-smart contract creado en AssemblyScript para el bootcamp del protocolo blockchain Near impartido por [blockdemy](https://www.blockdemy.com/)
+smart contract creado en AssemblyScript para el bootcamp del protocolo Near ofrecido por [blockdemy](https://www.blockdemy.com/) e impartido por el
+instructor  
+[Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/)
 
 **Tabla de Contenido**
 
-[TOCM]
+- **[Descripción](#descripción)**  
+- **[Instalacion](#instalacion) :astronaut:**  
+- **[Desplegar el contrato en la red de pruebas de Near](#desplegar-el-contrato-en-la-red-de-pruebas-de-near)**  
+- **[Funciones principales](#funciones-principales)**  
+  - **[init](#init)**
+  - **[invest](#invest)**
+  - **[vote](#vote)**
+- **[Autores](#autores)**
+- **[Agradecimientos](#agradecimientos)**
 
-[TOC]
+# Descripción 
 
-#Descripción
+Smart contract creado con la finalidad de realizar una recaudacion de fondos colectivos para posteriormente ser realizado una votacion para decidir donde seran gastados o invertidos los fondos recaudados
 
-Smart contract fue creado con la finalidad de realizar una recaudacion de fondos colectivos para posteriormente ser realizado una votacion para decidir donde seran gastados o invertidos los fondos recaudados
-
-#Instalacion :astronaut:
+# Instalacion
 
 instalar near-cli 
 
@@ -31,7 +39,7 @@ instalar yarn (necesario)
 
 `npm install --global yarn`
 
-#Desplegar el contrato en la red de pruebas de Near
+# Desplegar el contrato en la red de pruebas de Near
 
 
 Compilar el contrato
@@ -47,9 +55,9 @@ Desplegar el contrato en la red de pruebas del protocolo de near
 `near dev-deploy ./build/release/proyect-1.wasm` 
 
 
-#Funciones principales
+# Funciones principales
 
-### init()
+### init
 Instancia las variables principales que se utilizara en el smart contract
 
 
@@ -127,27 +135,27 @@ Permite a los usuarios votar por las opciones donde los fondos seran donados o i
     }
 
 
-#Autores
+# Autores
 
-Danny jesus gonzalez galicia
-Correo: jesusgalicia2019@gmail.com
-Linkedin :https://www.linkedin.com/in/danny-gonzalez-974763219
-GitHub: https://github.com/asmel2020
+Danny jesus gonzalez galicia  
+Correo: jesusgalicia2019@gmail.com  
+Linkedin :https://www.linkedin.com/in/danny-gonzalez-974763219  
+GitHub: https://github.com/asmel2020  
 
-Eduardo Antonio Vargas Mauricio
-Correo: eduant.varmau@gmail.com
-Linkedin :https://www.linkedin.com/in/eduantvarmau
-GitHub: https://github.com/eduantvarmau
+Eduardo Antonio Vargas Mauricio  
+Correo: eduant.varmau@gmail.com  
+Linkedin :https://www.linkedin.com/in/eduantvarmau  
+GitHub: https://github.com/eduantvarmau  
 
-Alexis Antonio Castillo Pimienta
-Correo: alexis.castillo.pimienta@gmail.com
-Linkedin: https://www.linkedin.com/in/alexiscastillo25
+Alexis Antonio Castillo Pimienta  
+Correo: alexis.castillo.pimienta@gmail.com  
+Linkedin: https://www.linkedin.com/in/alexiscastillo25  
 
-Alejandro Juárez Perea
-Correo: alejandro.info33@gmail.com
+Alejandro Juárez Perea  
+Correo: alejandro.info33@gmail.com  
 
-#Agradecimientos
+# Agradecimientos
 
 Gracias a  [blockdemy](https://www.blockdemy.com/) por permitirnos particpar en este increible bootcamp del protocolo de Near.
 
-a nuestro instructor [Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/) por sus enseñanzas y apoyo en todo el trayecto bootcamp, espero poder seguir compartiendo contigo en futuros eventos y proyectos que el protocolo de Near lleve a las comunidades
+A nuestro instructor [Jhon Alexander Zuluaga Salazar](https://www.blockdemy.com/) por sus enseñanzas y apoyo en todo el trayecto bootcamp, espero poder seguir compartiendo contigo en futuros eventos y proyectos que el protocolo de Near lleve a las comunidades
